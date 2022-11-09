@@ -1,0 +1,12 @@
+.main-navigation {
+    align-items: center;
+    display: flex;
+} 
+.main-navigation>a{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 14px; 
+    color: #FFFFFF;  
+    padding: 0px 33px;
+}

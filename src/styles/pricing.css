@@ -1,0 +1,98 @@
+.options {
+    background-color:#F5F5F5;
+}
+.section__block{
+   display: flex;
+   /* align-self: flex-end; */
+   min-height: 600px;
+   margin: 80px 10px;
+   padding: 0px 8px 50px 10px;
+}
+.section__tariff:nth-child(1){
+    align-self: flex-end;
+}
+.section__tariff:nth-child(2){
+    box-shadow: 0px 4px 10px 0px #33333333;
+    align-self: flex-start;
+}
+.section__tariff:nth-child(3){
+    align-self: flex-end;
+}
+.section__tariff {
+    /* align-items: flex-start; */
+    margin: 0 30px; 
+    background-color: #FFFFFF;
+    /* align-items: center; */
+    /* text-align: center; */
+    /* max-height: 510px; */
+}
+.section-tariff__rate {
+    /* width: 309px;
+    height: 60px; */
+    font-family: 'Open Sans';
+    /* font-weight: 700; */
+    font-size: 24px;
+    /* line-height: 33px; */
+    /* align-items: center; */
+    text-align: center; 
+    color:#FFFFFF;
+    background: #333333;
+    border-bottom-style: solid ;
+    border-width: 2px;
+    border-color: #F5F5F5; 
+    padding: 14.5px 10px; 
+}
+.section-tariff__price {
+    /* height: 100px; */
+    /* width: 309px; */
+    font-family: 'Raleway';
+    /* font-weight: 700; */
+    font-size: 36px;
+    /* line-height: 42px; */
+    /* align-items: center; */
+    text-align: center;
+    color:#FFFFFF;
+    background: #333333;
+    padding: 26px 10px;
+}
+
+.section-tariff__information {
+    /* height: 50px; */
+    width: 309px;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 18px;
+    /* line-height: 21px; */
+    /* align-items: center; */
+    text-align: center;
+    color:#F5F5F5;
+    background: #333333;
+    margin: 0px;
+    border-top-style: solid ;
+    border-width: 2px;
+    border-color: #F5F5F5; 
+    /* padding: 13px 10px; */
+}
+.section__space {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 18px;
+    color: #86878B; 
+}
+.section-spase__list {
+    margin: 0px 0px;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Raleway';
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px; 
+}
+.section-spase-list__li{
+    border-bottom-style: solid;
+    border-width: 2px;
+    border-color: #F5F5F5;
+    padding: 15px;
+}
+

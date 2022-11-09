@@ -1,0 +1,12 @@
+.main-header {
+    background-color: black;
+}
+.main-header__container {
+    max-width: 1250px; 
+}
+.main-header__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+
