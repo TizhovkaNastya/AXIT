@@ -1,24 +1,18 @@
-.options {
+.pricing {
     background-color:#F5F5F5;
 }
 .section__block{
    display: flex;
-   min-height: 600px;
-   margin: 80px 10px;
-   padding: 0px 8px 50px 10px;
-}
-.section__tariff:nth-child(1){
-    align-self: flex-end;
+   align-items: flex-end;
+   min-height: 580px;
+   margin: 80px 8px 30px 8px;
 }
 .section__tariff:nth-child(2){
     box-shadow: 0px 4px 10px 0px #33333333;
     align-self: flex-start;
 }
-.section__tariff:nth-child(3){
-    align-self: flex-end;
-}
 .section__tariff {
-    margin: 0 30px; 
+    margin: 0px 30px 40px; 
     background-color: #FFFFFF;
 }
 .section-tariff__rate {
@@ -33,11 +27,12 @@
     padding: 14.5px 10px; 
 }
 .section-tariff__price {
+    font-size: 36px;
     font-family: 'Raleway';
     text-align: center;
     color:#FFFFFF;
     background: #333333;
-    padding: 26px 10px;
+    padding: 20px 10px;
 }
 
 .section-tariff__information {
