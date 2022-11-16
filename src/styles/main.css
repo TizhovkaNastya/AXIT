@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway&display=swap');
 @import"./reset.css";
-@import"container.css";
+@import"config.css";
 @import"./header.css";
 @import"./navigation.css";
 @import"./tabs.css";
 @import"./section-header.css";
 @import"./awesome.css";
 @import"./pricing.css";
+@import"./customers.css";
