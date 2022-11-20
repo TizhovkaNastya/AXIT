@@ -1,0 +1,24 @@
+.footer{
+    height: 160px;
+    background-color: #000000;
+}
+.footer__information {
+    padding: 0px auto;
+}
+.footer-information__networks {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+.footer__postscript {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    justify-content: center;
+}
+.footer-information__networks-icon{
+     margin: 0px 25px;
+     cursor: pointer;
+}

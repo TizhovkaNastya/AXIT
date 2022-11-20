@@ -1,0 +1,25 @@
+.stylish{
+    background: 
+    linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), 
+    url("../assets/pictures/town.jpg"); 
+}
+.stylish__button{
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    border: 2px solid #FFFFFF;
+    margin: 40px 345px;
+    padding: 20px 170px;
+    background-color: transparent;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.section__header--color *{
+    color: #FFFFFF;
+}
+.section__header--color .section-header__line{
+    background-color: #FFFFFF;
+}

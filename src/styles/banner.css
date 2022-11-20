@@ -1,0 +1,111 @@
+.banner {
+    background: 
+    linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5)), 
+    url("../assets/pictures/bunner-town.svg");
+    height: 1026px;
+}
+.banner__inner {
+    display: flex;
+    flex-direction: row;
+}
+.banner__block-text {
+    text-align: left;
+    width: 540px;
+    height: 640px;
+}
+.banner__logo {
+    padding-top: 231px;
+}
+.banner__title {
+    padding-top: 50px;
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 56px;
+    color: #FFFFFF;
+}
+.bunner__line {
+    margin: 50px 0px;
+    height: 1px;
+    width: 170px;
+    background-color:#FFFFFF
+}
+.banner__subtitle {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.banner__button {
+    margin-top: 40px;
+    height: 58px;
+    width: 270px;
+    box-sizing: border-box;
+    border: 1px solid #FFFFFF;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 18px;
+    align-items: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    background-color: transparent;
+}
+.banner__form {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    margin: 241px 70px;
+    width: 500px;
+    height: 435px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    
+}
+.forms__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: none;   
+}
+.forms-form__text{
+    color: #333333;
+    font-family: 'Open Sans';;
+    font-weight: 700;
+    font-size: 24px;
+    margin: 40px 50px 0px 50px;
+}
+.forms-form__text>mark{
+    color: #EC7979;
+    background-color: white;
+}
+
+.forms__form-name {
+    margin-top: 50px;
+    border: none;
+    border-bottom: solid 1px #BDBDBD;
+    width: 400px;
+}
+.forms__form-email {
+    margin-top: 60px;
+    border: none;
+    border-bottom: solid 1px #BDBDBD;
+    width: 400px;
+}
+.forms__form-password {
+    margin-top: 60px;
+    border: none;
+    border-bottom: solid 1px #BDBDBD;
+    width: 400px;
+}
+.forms__form-button {
+    margin-top: 60px;
+    border: none;
+    color: #FFFFFF;
+    width: 500px;
+    height: 70px;
+    cursor: pointer;
+    background: #EC7979;
+    border-radius: 0px 0px 10px 10px;
+}

@@ -1,0 +1,54 @@
+.form { 
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+.form__text{
+    display: flex;
+    flex-direction: column;
+}
+.form__column{
+    display: flex;
+    flex-direction: row;
+}
+.contac__form-name {
+    margin-top: 60px;
+    border: none;
+    border-bottom: solid 1px #BDBDBD;
+    width: 450px;   
+}
+.contac__form-email {
+    margin-top: 60px;
+    border: none;
+    border-bottom: solid 1px #BDBDBD;
+    width: 450px;   
+}
+.contac__form-password {
+    margin-top: 60px;
+    border: none;
+    border-bottom: solid 1px #BDBDBD;
+    width: 450px;   
+}
+.form__message{
+    padding-top: 60px;
+    margin-left: 40px;
+}
+ .contact__form-message {
+    border: none;
+    border-bottom: solid 1px #BDBDBD; 
+    width: 450px;
+    height: 201px;
+}
+.contac__form-button {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 18px;
+    width: 370px;
+    height: 58px;
+    color: white;
+    background-color: #EC7979;
+    border: none;
+    margin: 50px auto;
+    cursor: pointer;
+}
