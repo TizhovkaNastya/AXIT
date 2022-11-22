@@ -35,6 +35,7 @@
     margin-left: 40px;
 }
  .contact__form-message {
+    resize: none;
     border: none;
     border-bottom: solid 1px #BDBDBD; 
     width: 450px;
