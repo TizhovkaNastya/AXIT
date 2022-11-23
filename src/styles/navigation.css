@@ -8,5 +8,8 @@
     text-decoration: none;
     font-size: 14px; 
     color: #FFFFFF;  
-    padding: 0px 33px;
+    padding: 25px 33px;
+}
+.main-navigation>a:hover{
+ background-color: #EC7979;   
 }

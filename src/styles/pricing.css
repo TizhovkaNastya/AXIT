@@ -36,7 +36,7 @@
 }
 
 .section-tariff__information {
-    width: 309px;
+    min-width: 309px;
     font-family: 'Raleway';
     font-weight: 400;
     font-size: 18px;
